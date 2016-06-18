@@ -1,0 +1,19 @@
+#!/bin/sh
+
+
+LPORT=3000
+RPORT=3000
+USER=kkmuser
+HOST=192.168.1.2
+
+
+# а вот так пробрасывается порт 3000 с удаленного сервака  на localhost:3000
+# если вдруг проект крутится у немцев, а касса стоит в офисе
+while true ; do
+	ssh -p3000 -N -L $LPORT:localhost:$RPORT $USER@$HOST
+    sleep 3
+done
+
+# на сервере при этом запущен 
+# socat tcp-l:3000,bind=localhost,reuseaddr,fork file:/dev/ttyUSB0,nonblock,raw,echo=0,waitlock=/var/run/tty
+
