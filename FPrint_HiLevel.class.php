@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
 
 class FPrint_HiLevel extends KKM {
     const FLAGS_SESSION_OPENED = 2;

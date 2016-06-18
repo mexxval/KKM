@@ -1,4 +1,10 @@
 <?php
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
+
 require_once dirname(__FILE__) . '/_lib.php';
 
 if (!($inputhdl = fopen('php://stdin' ,'r'))) {

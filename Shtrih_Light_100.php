@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
 
 class Shtrih_Light_100 extends ShtrihM_HiLevel {
     public function XReport() {

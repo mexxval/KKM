@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
 
 interface ComPort {
 	function open();

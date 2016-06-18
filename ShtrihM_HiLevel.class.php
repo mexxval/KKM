@@ -23,7 +23,10 @@
  * 
  * 25h - отрезка чека
  * 
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
  */
+
 class ShtrihM_HiLevel extends KKM {
     // номера битов в битовых полях состояния ККМ
     const FLAGS2_SESSION_OPENED = 6; // 0 - closed, 1 - opened

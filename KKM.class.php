@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
 abstract class KKM {
     const EOT = 0x04;
     const ENQ = 0x05;

@@ -1,4 +1,9 @@
 <?php
+/**
+ * @author	mexxval
+ * @link	http://blog.sci-smart.ru
+ */
+ 
 
 class FPrint5200K extends FPrint_HiLevel {
     const MODE_WITH_DUMP = 3;
